@@ -10,7 +10,7 @@ Your job is to create this orchestrator.  The guidelines for the orchestrator ar
 - A task can have dependencies.  For example, TaskABC may need to be executed before TaskXYZ can start
 - You should be able to retrospectively check whether a task succeeds or fails (i.e. there should be some sort of monitoring)
 - You should be able to easily rerun a task if it fails
-- You can design the tasks however you want (i.e. they can be a bash script, a python script, running a docker container, etc…).   
+- You can design the tasks however you want (i.e. they can be a bash script, a python script, a docker command, etc…).   
 - You should also provide a brief README describing your design choices.  
 
 This is designed to be a fairly open-ended challenge.  We ask that you not spend too much time on it as we are mostly evaluating your thought process and your design choices rather than a fully working framework.
