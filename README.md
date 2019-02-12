@@ -11,6 +11,9 @@ Your job is to create this orchestrator.  The guidelines for the orchestrator ar
 - You should be able to retrospectively check whether a task succeeds or fails (i.e. there should be some sort of monitoring)
 - You should be able to easily rerun a task if it fails
 - You can design the tasks however you want (i.e. they can be a bash script, a python script, a docker command, etc…).   
+- You should automate the deployment of this service (e.g. you could Dockerize it and then deploy it using SaltStack/Ansible.  How you do this is up completely up to you.)  
 - You should also provide a brief README describing your design choices.  
+
+You should submit as a github repository, and you should include an example set of tasks for us to run.
 
 This is designed to be a fairly open-ended challenge.  We ask that you not spend too much time on it as we are mostly evaluating your thought process and your design choices rather than a fully working framework.
